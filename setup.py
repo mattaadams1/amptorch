@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 setup_requires = [
-    'cffi>=1.0.0',"spglib", "torch", "scikit-learn==0.21.3", "skorch==0.6.0", "ase", "scipy","torch_geometric"]
+    'cffi>=1.0.0']
 
 setup(
     name="amptorch",
